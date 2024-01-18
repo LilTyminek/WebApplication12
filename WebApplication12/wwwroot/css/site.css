@@ -1,0 +1,105 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    width: 100% auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.segment {
+    width: 75%; /* Szerokoœæ segmentu */
+    margin: 10px auto; /* Ustawia segment po œrodku */
+    padding: 20px; /* Miejsce wewnêtrzne segmentu */
+    background-color: #90E0EF; /* Ciemniejszy kolor t³a */
+    color: #fff; /* Kolor tekstu */
+    border-radius: 5px; /* Zaokr¹glenie rogów */
+    border: 1px solid #ccc;
+}
+
+/*input*/
+.newpost {
+}
+
+.textInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 75%;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.hoverButton {
+    background-color: #0077B6;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1000px;
+}
+
+    .hoverButton:hover {
+        background-color: #023E8A;
+    }
+/*Posty usera*/
+.postButton {
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.editButton {
+    margin-left: 920px;
+    background-color: #48cae4;
+}
+
+    .editButton:hover {
+        background-color: #023e8a;
+    }
+
+.deleteButton {
+    background-color: #c1121f;
+}
+
+    .deleteButton:hover {
+        background-color: #780000;
+    }
+
+/*login.css*/
+.separator {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
