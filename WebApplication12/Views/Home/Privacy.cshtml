@@ -4,10 +4,27 @@
 
 <div class="container">
     <h1>@ViewData["Title"]</h1>
-    <div class="post">
-        <div class="segment">
+
+
+    <div class="post-container">
+        <textarea id="post-text" placeholder="Co słychać?" rows="4" cols="50"></textarea>
+        <button onclick="submitPost()">Opublikuj</button>
+    </div>
+    <div class="user-posts">
+        <div class="post">
+            <p class="post-content">To jest mój pierwszy post!</p>
+            <div class="post-actions">
+                <button onclick="editPost(this)">Edytuj</button>
+                <button onclick="deletePost(this)">Usuń</button>
+            </div>
         </div>
-        <button class="postButton editButton">Edytuj</button>
-        <button class="postButton deleteButton">Usuń</button>
+        <div class="post">
+            <p class="post-content">Dziś jest świetny dzień!</p>
+            <div class="post-actions">
+                <button onclick="editPost(this)">Edytuj</button>
+                <button onclick="deletePost(this)">Usuń</button>
+            </div>
+        </div>
+        <!-- Dodaj więcej postów tutaj -->
     </div>
 </div>
