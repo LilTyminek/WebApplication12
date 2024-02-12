@@ -1,5 +1,6 @@
-﻿@{
+@{
     ViewData["Title"] = "Tablica";
+    string username = User.Identity.Name;
 }
 <div class="container">
     <div class="newpost">
@@ -11,24 +12,10 @@
     </div>
     <div style=""></div>
     <div class="segment">
+        <label for="authorName">Imię autora:</label>
         <!--posty
-            Fasdfasdfasdf
-            sadfgasdf
+            
         -->
-        asdfasdf
-    </div>
-    <div class="segment">
-        <!--posty
-            Fasdfasdfasdf
-            sadfgasdf
-        -->
-        asdfasdf
-    </div>
-    <div class="segment">
-        <!--posty
-            Fasdfasdfasdf
-            sadfgasdf
-        -->
-        asdfasdf
+        <div id="authorText">wert</div>
     </div>
 </div>
